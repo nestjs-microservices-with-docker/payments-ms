@@ -12,6 +12,10 @@ import {
 export class CreatePaymentSessionDto {
   @IsString()
   @IsNotEmpty()
+  orderId: string;
+
+  @IsString()
+  @IsNotEmpty()
   currency: string;
 
   @IsArray()
