@@ -11,7 +11,6 @@ import {
 import { PaymentsService } from './payments.service';
 import { CreatePaymentSessionDto } from './dto/create-payment-session.dto';
 import { Request, Response } from 'express';
-// import { envs } from 'src/config';
 
 @Controller('payments')
 export class PaymentsController {
